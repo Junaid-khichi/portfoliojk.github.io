@@ -16,11 +16,7 @@
       <div class="container1">
         <nav class="nav-section">
           <div class="nav-name">
-            <img
-              class="nav-name-logo"
-              src="NavLogo.jpg"
-              alt="nav-name"
-            />
+            <img class="nav-name-logo" src="NavLogo.jpg" alt="nav-name" />
             <span>unaid Khichi</span>
           </div>
           <div class="nav-items">
@@ -48,26 +44,65 @@
             </div>
             <!-- </div> -->
           </section>
-          
+
           <section class="right">
-            <div class="user-img">
-              <img src="junaid.jpg" alt="" />
+            <!-- <div class="circle1"></div>
+            <div class="circle2"></div> -->
+            <div class="wrapper1">
+              <div class="card-wrapper1">
+                <div class="name-container1">
+                  <img src="/jk.JPG" alt="user" />
+                  <div class="user-name1">
+                    <h2>Junaid Khichi</h2>
+                  </div>
+                </div>
+                <div class="designation1">
+                  <h3>Btech, Full Stack Developer</h3>
+                </div>
+                <div class="bottom-group1">
+                  <button onclick="openModal()" class="btn-share1 btn-card1">
+                    <i class="fa-solid fa-share"></i>
+                    <div>share my profile</div>
+                  </button>
+
+                  <button class="btn-follow1 btn-card1">Follow me</button>
+                </div>
+              </div>
             </div>
-            <div class="zig-zag-img">
-              <img src="zigzags.png" alt="" />
+
+            <div class="modal">
+              <div class="modal-header">
+                <h1>Share My Profile</h1>
+                <div>
+                  <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+                </div>
+              </div>
+
+              <div>
+                <h3>Share this via</h3>
+
+                <div class="icon-container1">
+                  <a href="#" class="icon1" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="icon1" id="twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#" class="icon1" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#" class="icon1" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="#" class="icon1" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="plus-img">
-              <img src="plus.png" alt="" />
-            </div>
-            <div class="cube-img">
-              <img src="cube.png" alt="" />
-            </div>
-            <div class="circle-img">
-              <img src="circle.png" alt="" />
-            </div>
-            <div class="dot-img">
-              <img src="dots.png" alt="" />
-            </div>
+
+            <!-- Overlay -->
+            <div class="overlay" onclick="closeModal()"></div>
           </section>
         </header>
       </div>
@@ -238,10 +273,10 @@
           <div class="skills-text left">
             <p class="skills-heading"><span>M</span>e and MyTech Stack</p>
             <p class="skills-para">
-              Hi Everyone My name is Junaid Khichi I am a Full Stack Web Developer I
-              have been working for last 3 Years and Currently I am working with
-              a Budding Startup in USA and a full Time Freelancer. Currently I
-              am working on NextJs and Making Beautiful UI-UX are my fey
+              Hi Everyone My name is Junaid Khichi I am a Full Stack Web
+              Developer I have been working for last 3 Years and Currently I am
+              working with a Budding Startup in USA and a full Time Freelancer.
+              Currently I am working on NextJs and Making Beautiful UI-UX are my
               features Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               <br />
               <br />
@@ -449,5 +484,6 @@
         backDelay: 1000,
       });
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
